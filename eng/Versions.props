@@ -8,11 +8,15 @@
     <!-- Enable to remove prerelease label. -->
     <StabilizePackageVersion Condition="'$(StabilizePackageVersion)' == ''">false</StabilizePackageVersion>
     <DotNetFinalVersionKind Condition="'$(StabilizePackageVersion)' == 'true'">release</DotNetFinalVersionKind>
+    <MicrosoftNETSdkWindowsDesktopVersion>10.0.0-preview.3.25161.120</MicrosoftNETSdkWindowsDesktopVersion>
+    <MicrosoftDotNetWpfProjectTemplatesVersion>10.0.0-preview.3.25161.120</MicrosoftDotNetWpfProjectTemplatesVersion>
+    <MicrosoftDotNetBuildTasksFeedVersion>10.0.0-beta.25161.120</MicrosoftDotNetBuildTasksFeedVersion>
+    <MicrosoftDotNetVersionToolsTasksVersion>10.0.0-beta.25161.120</MicrosoftDotNetVersionToolsTasksVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- arcade -->
-    <MicrosoftDotNetBuildTasksArchivesVersion>10.0.0-beta.25157.1</MicrosoftDotNetBuildTasksArchivesVersion>
-    <MicrosoftDotNetBuildTasksInstallersVersion>10.0.0-beta.25157.1</MicrosoftDotNetBuildTasksInstallersVersion>
+    <MicrosoftDotNetBuildTasksArchivesVersion>10.0.0-beta.25161.120</MicrosoftDotNetBuildTasksArchivesVersion>
+    <MicrosoftDotNetBuildTasksInstallersVersion>10.0.0-beta.25161.120</MicrosoftDotNetBuildTasksInstallersVersion>
     <!-- corefx -->
     <SystemDataDataSetExtensionsVersion>4.5.0</SystemDataDataSetExtensionsVersion>
     <!-- The SQL team had deprecated System.Data.SqlClient package and replaced it with Microsoft.Data.SqlClient.
@@ -69,6 +73,6 @@
     <MicrosoftPrivateWinformsVersion>10.0.0-preview.3.25125.6</MicrosoftPrivateWinformsVersion>
     <SystemDrawingCommonVersion>10.0.0-preview.3.25125.6</SystemDrawingCommonVersion>
     <!-- WPF -->
-    <MicrosoftDotNetWpfGitHubVersion>10.0.0-preview.3.25127.1</MicrosoftDotNetWpfGitHubVersion>
+    <MicrosoftDotNetWpfGitHubVersion>10.0.0-preview.3.25161.120</MicrosoftDotNetWpfGitHubVersion>
   </PropertyGroup>
 </Project>
