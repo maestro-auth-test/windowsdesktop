@@ -8,15 +8,15 @@
     <!-- Enable to remove prerelease label. -->
     <StabilizePackageVersion Condition="'$(StabilizePackageVersion)' == ''">false</StabilizePackageVersion>
     <DotNetFinalVersionKind Condition="'$(StabilizePackageVersion)' == 'true'">release</DotNetFinalVersionKind>
-    <MicrosoftNETSdkWindowsDesktopVersion>10.0.0-preview.4.25215.101</MicrosoftNETSdkWindowsDesktopVersion>
-    <MicrosoftDotNetWpfProjectTemplatesVersion>10.0.0-preview.4.25215.101</MicrosoftDotNetWpfProjectTemplatesVersion>
-    <MicrosoftDotNetBuildTasksFeedVersion>10.0.0-beta.25215.101</MicrosoftDotNetBuildTasksFeedVersion>
+    <MicrosoftNETSdkWindowsDesktopVersion>10.0.0-preview.4.25215.102</MicrosoftNETSdkWindowsDesktopVersion>
+    <MicrosoftDotNetWpfProjectTemplatesVersion>10.0.0-preview.4.25215.102</MicrosoftDotNetWpfProjectTemplatesVersion>
+    <MicrosoftDotNetBuildTasksFeedVersion>10.0.0-beta.25215.102</MicrosoftDotNetBuildTasksFeedVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- arcade -->
-    <MicrosoftDotNetBuildTasksArchivesVersion>10.0.0-beta.25215.101</MicrosoftDotNetBuildTasksArchivesVersion>
-    <MicrosoftDotNetBuildTasksInstallersVersion>10.0.0-beta.25215.101</MicrosoftDotNetBuildTasksInstallersVersion>
-    <MicrosoftDotNetBuildTasksTemplatingVersion>10.0.0-beta.25215.101</MicrosoftDotNetBuildTasksTemplatingVersion>
+    <MicrosoftDotNetBuildTasksArchivesVersion>10.0.0-beta.25215.102</MicrosoftDotNetBuildTasksArchivesVersion>
+    <MicrosoftDotNetBuildTasksInstallersVersion>10.0.0-beta.25215.102</MicrosoftDotNetBuildTasksInstallersVersion>
+    <MicrosoftDotNetBuildTasksTemplatingVersion>10.0.0-beta.25215.102</MicrosoftDotNetBuildTasksTemplatingVersion>
     <!-- corefx -->
     <SystemDataDataSetExtensionsVersion>4.5.0</SystemDataDataSetExtensionsVersion>
     <!-- The SQL team had deprecated System.Data.SqlClient package and replaced it with Microsoft.Data.SqlClient.
@@ -73,6 +73,6 @@
     <MicrosoftPrivateWinformsVersion>10.0.0-preview.4.25211.1</MicrosoftPrivateWinformsVersion>
     <SystemDrawingCommonVersion>10.0.0-preview.4.25211.1</SystemDrawingCommonVersion>
     <!-- WPF -->
-    <MicrosoftDotNetWpfGitHubVersion>10.0.0-preview.4.25215.101</MicrosoftDotNetWpfGitHubVersion>
+    <MicrosoftDotNetWpfGitHubVersion>10.0.0-preview.4.25215.102</MicrosoftDotNetWpfGitHubVersion>
   </PropertyGroup>
 </Project>
